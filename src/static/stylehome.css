@@ -1,3 +1,279 @@
-h1 {
-    color: red;
+@font-face {
+    font-family: main_font;
+    src: url("./fonts/Phudu-VariableFont_wght.ttf");
+}
+
+
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: main_font;
+}
+
+
+nav {
+    border: 0;
+    background-color: #001220;
+
+    height: 100vh;
+    width: 100%;
+
+    margin-left: -120vw;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.5s;
+
+    position: absolute;
+}
+
+
+nav button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    width: 100%;
+    height: 12vh;
+    font-size: xx-large;
+    background-color: #001220;
+    color: white;
+}
+
+
+nav button:hover {
+    color: #001220;
+    background-color: white;
+}
+
+
+.close_nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8vh;
+    height: 8vh;
+
+    margin-top: 10px;
+    margin-right: 10px;
+
+    transition: 0.5s;
+
+    display: flex;
+
+    padding: 0;
+}
+
+
+.close_nav:hover {
+    background-color: grey;
+}
+
+
+.close_nav img {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+nav img {
+    height: 10vh;
+    width: 10vh;
+
+    position: absolute;
+    top: 0;
+    margin-top: 10vh;
+
+    border: 0;
+}
+
+
+.back_top {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    border: solid #001220 2px;
+    background-color: white;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    margin-right: -100px;
+    transition: 0.5s;
+}
+
+
+.back_top img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.top {
+    width: 100%;
+    height: 15vh;
+
+    display: flex;
+    flex-direction: row-reverse;
+
+    transition: 0.5s;
+
+    background-color: #001220;
+    display: flex;
+}
+
+
+.open_nav_button {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: #001220;
+    transition: 0.5s;
+}
+
+.open_nav_button:hover {
+    background-color: gray;
+}
+
+.open_nav_button img {
+    height: 60%;
+}
+
+
+.home_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #001220;
+}
+
+.home_title {
+    margin-top: 10vh;
+    text-align: center;
+    width: 80%;
+    color: white;
+}
+
+.home_presentation {
+    background-color: white;
+    color: #001220;
+    display: flex;
+    padding: 30px;
+    width: 70%;
+    border-radius: 20px;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.home_img {
+    width: 80%;
+    height: 80vw;
+    background-color: gray;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.waves {
+    width: 100%;
+    margin-top: -5px;
+}
+
+.about_us_div {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.about_us_title {
+    color: #001220;
+}
+
+.about_us_text {
+    width: 70%;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.link {
+    width: 15vw;
+    height: 15vw;
+}
+
+.link img {
+    height: 100%;
+    width: 100%;
+}
+
+.steps {
+    width: 100%;
+    margin-bottom: -10px;
+}
+
+.tokenomics_div {
+    width: 100%;
+    background-color: #FA7268;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tokenomics_title {
+    text-align: center;
+    color: white;
+    margin-top: 5vh;
+}
+
+.tokenomics_img {
+    width: 50vw;
+    height: 50vw;
+    margin-top: 5vh;
+    background-color: white;
+    border: none;
+    margin-bottom: 10vh;
+}
+
+
+.peaks {
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+
+footer {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #001220;
+    color: white;
+    width: 100%;
 }
