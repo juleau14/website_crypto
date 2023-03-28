@@ -75,9 +75,6 @@ const start = () => {
 
     backTopButton.addEventListener("click", scrollToTop);
 
-    backTopButton.addEventListener("mouseover", () => {
-        backTopButton.style.backgroundColor = "grey";
-    });
 }
 
 
