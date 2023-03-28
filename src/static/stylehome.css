@@ -22,7 +22,7 @@ nav {
     border: 0;
     background-color: #001220;
 
-    height: 100vh;
+    height: 110vh;
     width: 100%;
 
     margin-left: -120vw;
@@ -221,7 +221,8 @@ nav img {
 }
 
 .home_img {
-    width: 80%;
+    width: 55vw;
+    height: 55vw;
     background-color: gray;
     margin-top: 5vh;
     margin-bottom: 5vh;
