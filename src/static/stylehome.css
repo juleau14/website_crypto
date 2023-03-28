@@ -382,7 +382,7 @@ footer {
     }
 
     .home_div {
-        height: 90vh;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -390,14 +390,14 @@ footer {
 
     .home_title {
         font-size: 50px;
-        margin: 0;
+        margin: 5vh 0;
     }
 
     .home_content {
         flex-direction: row;
         justify-content: space-around;
         width: 70%;
-        margin: 0;
+        margin: 0 0 5vh 0;
     }
 
 
@@ -409,11 +409,11 @@ footer {
 
     .home_img {
         width:30%;
+        height: auto;
     }
 
 
     .about_us_div {
-        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
