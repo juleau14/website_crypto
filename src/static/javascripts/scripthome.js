@@ -45,17 +45,23 @@ const start = () => {
     });
 
     homeButton.addEventListener("click", () => {
-        closeNav();
+        if (!window.matchMedia("(min-width: 800px)").matches) {
+            closeNav();
+        }
         scrollToTop();
     });
 
     aboutUsButton.addEventListener("click", () => {
-        closeNav();
+        if (!window.matchMedia("(min-width: 800px)").matches) {
+            closeNav();
+        }
         scrollToAboutUs();
     });
 
     tokenomicsButton.addEventListener("click", () => {
-        closeNav();
+        if (!window.matchMedia("(min-width: 800px)").matches) {
+            closeNav();
+        }
         scrollToTokenomics();
     });
 
@@ -68,6 +74,10 @@ const start = () => {
     });
 
     backTopButton.addEventListener("click", scrollToTop);
+
+    backTopButton.addEventListener("mouseover", () => {
+        backTopButton.style.backgroundColor = "grey";
+    });
 }
 
 
